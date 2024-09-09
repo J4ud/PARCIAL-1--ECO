@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(225, 216, 232);
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+    color: #b700ff;
+  }
+  
+  #data-container {
+    margin-top: 20px;
+  }
+  
+  #players-list,
+  #polo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    
+    width: 100%;
+  }
+
+  #players-list li{
+    background-color: white;
+    width: 10%;
+    border-radius: 2px;
+    margin: 5px;
+  }
+  #players-list li{
+    background-color: white;
+    width: 10%;
+    border-radius: 2px;
+  
+  }
+  
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #join-button {
+    background-color: #43005e;
+    color: white;
+  }
+  
+  #join-button:hover {
+    background-color: #0056b3;
+  }
+  
+  #start-button {
+    display: none;
+    background-color: #a20095;
+    color: white;
+    justify-self: center;
+  }
+  
+  #start-button:hover {
+    background-color: #510e8f;
+  }
+  
+  #marco-button,
+  #polo-button {
+    display: none;
+    background-color: #3b0042;
+    color: white;
+  }
+  
+  #marco-button:hover,
+  #polo-button:hover {
+    background-color: #e74c3c;
+  }
+  
+  h2,
+  h3 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  #role {
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  #registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  #nickname-title{
+    margin: 10px;
+  }
+
+  #players-title{
+    text-align: center;
+    color: #533057;
+  }
+  #select-polo{
+    text-align: center;
+    color: #533057;
+  }
+
+  #start-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+#buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#polo-list li{
+    background-color: white;
+    width: 10%;
+    border-radius: 2px;
+    margin: 5px;
+  }
